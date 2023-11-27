@@ -1,1 +1,5 @@
-# cuvette-bootcamp
+# Cuvette Bootcamp
+
+## _Day 1_
+
+---

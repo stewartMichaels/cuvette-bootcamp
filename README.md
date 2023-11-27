@@ -1,5 +1,7 @@
 # Cuvette Bootcamp
 
+![itadori-power-up-jjk](images/banner/jjk-gif.gif)
+
 ## ⭐️ _Day 1_
 
 ---

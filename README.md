@@ -1,12 +1,12 @@
 # Cuvette Bootcamp
 
-## _Day 1_
+## 1️⃣ _Day 1_
 
 ---
 
-### _Orientation_
+### 📣 _Orientation_
 
-#### _4-6 Month Plan_
+#### 🔖 _4-6 Month Plan_
 
 | Module No. | Topic Covered                | No. of Weeks | Test No. |
 | ---------- | ---------------------------- | ------------ | -------- |
@@ -15,6 +15,6 @@
 | 3          | Backend - NodeJS             | 5            | -        |
 | 4          | DSA (only Pro Plan students) | 8            | -        |
 
-> ** NOTE **
+> 🚨 NOTE
 >
 > There will be a Final Evaluation after Module - 3. It is compulsory for students to clear the Final Evaluation for Placements.

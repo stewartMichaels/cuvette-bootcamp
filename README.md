@@ -1,10 +1,10 @@
 # Cuvette Bootcamp
 
-## 1️⃣ _Day 1_
+## ⭐️ _Day 1_
 
 ---
 
-### 📣 _Orientation_
+### 👉 _Orientation_
 
 #### 🔖 _4-6 Month Plan_
 

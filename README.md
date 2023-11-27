@@ -4,9 +4,9 @@
 
 ---
 
-### ** Orientation **
+### _Orientation_
 
-#### ** 4-6 Month Plan **
+#### _4-6 Month Plan_
 
 | Module No. | Topic Covered                | No. of Weeks | Test No. |
 | ---------- | ---------------------------- | ------------ | -------- |

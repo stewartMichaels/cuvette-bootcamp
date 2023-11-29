@@ -2,9 +2,9 @@
 
 ![itadori-power-up-jjk](images/banner/jjk-gif.gif)
 
-## ⭐️ _Day 1_
-
 ---
+
+## ⭐️ _Day 1_
 
 ### 👉 _Orientation_
 
@@ -21,9 +21,9 @@
 >
 > There will be a Final Evaluation after Module - 3. It is compulsory for students to clear the Final Evaluation for Placements.
 
-## ⭐️ _Day 2_
-
 ---
+
+## ⭐️ _Day 2_
 
 ### 👉 _Basics of Programming_
 
@@ -32,3 +32,5 @@ Was explained a few concepts and was given an overview of the programming concep
 We were also showed how to find if a number is even or odd (which is again a very basic concept). And we were also given a short explanation about Runtime Errors and Syntax/Compiler Errors.
 
 That's all.
+
+---

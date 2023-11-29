@@ -15,7 +15,8 @@
 | 1          | HTML, CSS, JS                | 6            | 1        |
 | 2          | Frontend - ReactJS           | 5            | 2        |
 | 3          | Backend - NodeJS             | 5            | -        |
-| 4          | DSA (only Pro Plan students) | 8            | -        |
+| 4          | Final Evaluation             | -            | 3        |
+| 5          | DSA (only Pro Plan students) | 8            | -        |
 
 > 🚨 NOTE
 >

@@ -1,0 +1,86 @@
+/* Global Settings */
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #ffcd9e;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* First Container */
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.box-left .box-right {
+  flex: 1;
+}
+
+/* Left Box Designs */
+.container-1 .box-left .para {
+  font-size: 20px;
+}
+
+.container-1 .box-left .bold-para {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Right Box Designs */
+.container-1 .box-right img {
+  height: 50vh;
+}
+
+/* Second Container */
+footer {
+  padding: 100px;
+  background-color: black;
+  color: white;
+}
+
+footer .container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-btm-left .box-btm-right {
+  flex: 1;
+}
+
+.box-btm-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-2 .box-btm-right .socials a img {
+  width: 28px;
+}

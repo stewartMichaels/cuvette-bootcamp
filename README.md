@@ -34,4 +34,6 @@ We were also showed how to find if a number is even or odd (which is again a ver
 
 That's all.
 
+(I'm still waiting to start w/ the programming! ;-;)
+
 ---

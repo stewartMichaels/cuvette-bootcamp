@@ -7,17 +7,20 @@
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   background-color: #ffcd9e;
+  min-height: 100vh;
   font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  padding-bottom: 28px;
 }
 
 input {
   padding: 10px;
   border: 4px solid #282828;
-  border-radius: 8px;
+  border-radius: 4px;
   width: 344px;
 }
 
@@ -29,6 +32,7 @@ a {
 button {
   width: 216px;
   padding: 15px 15px;
+  margin-left: 5px;
   background-color: #282828;
   color: #fff;
   border: none;
@@ -36,62 +40,50 @@ button {
   cursor: pointer;
 }
 
-/* Body Section */
-h1 {
-  font-size: 36px;
-  padding-bottom: 28px;
-  font-weight: 700;
-}
-
+/* First Container */
 .container-1 {
   display: flex;
   justify-content: space-between;
   padding: 83px 136px;
 }
 
-.box-left {
-  margin: auto 0;
+.box-left + .box-right {
+  flex: 1;
 }
 
-.box-left-content {
-  padding-bottom: 8px;
-}
-
-#para {
+/* Left Box Designs */
+.para {
   font-size: 20px;
   font-weight: 500;
+  padding-bottom: 28px;
 }
 
-#bold-para {
+.bold-para {
   font-size: 20px;
   font-weight: 800;
+  padding-bottom: 28px;
 }
 
-#email-id {
-  font-weight: 600;
-}
-
-#button {
+.box-left form input {
   font-weight: 700;
 }
 
 .no-spam {
-  padding-top: 28px;
   color: white;
   font-weight: 500;
-  font-size: 16px;
+  padding-top: 28px;
 }
 
-#man {
+/* Right Box Designs */
+.box-right img {
   height: 575px;
 }
 
-/* Footer Section */
+/* Second Container */
 footer {
-  margin-top: auto;
+  padding: 80px;
   background-color: #282828;
   color: white;
-  padding: 80px 100px;
 }
 
 .container-2 {
@@ -99,29 +91,35 @@ footer {
   justify-content: space-between;
 }
 
+.box-btm-left + .box-btm-right {
+  flex: 1;
+}
+
 .box-btm-left {
   display: flex;
   flex-direction: column;
+  padding-left: 100px;
 }
 
-#other-pages {
+.box-btm-left a {
   margin-bottom: 8px;
-  font-weight: 400;
-  font-size: 20px;
 }
 
 .box-btm-right {
   text-align: end;
+  padding-right: 100px;
 }
 
-#socials {
+.socials a img {
+  width: 28px;
+}
+
+.box-btm-right .credits a,
+.box-btm-right .credits p,
+.box-btm-right .credits .socials {
   margin-bottom: 8px;
-  font-weight: 400;
-  font-size: 20px;
 }
 
-.email-id {
-  margin-top: 32px;
-  font-weight: 400;
-  font-size: 20px;
+.box-btm-right .credits .email-id {
+  margin-bottom: 32px;
 }

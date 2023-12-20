@@ -53,18 +53,16 @@ h1 {
   margin: auto 0;
 }
 
-.box-left-content {
-  padding-bottom: 8px;
-}
-
 #para {
   font-size: 20px;
   font-weight: 500;
+  padding-bottom: 20px;
 }
 
 #bold-para {
   font-size: 20px;
   font-weight: 800;
+  padding-bottom: 20px;
 }
 
 #email-id {
@@ -112,16 +110,18 @@ footer {
 
 .box-btm-right {
   text-align: end;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-#socials {
+#home-link-footer {
   margin-bottom: 8px;
-  font-weight: 400;
-  font-size: 20px;
+}
+
+#credit-footer {
+  margin-bottom: 8px;
 }
 
 .email-id {
   margin-top: 32px;
-  font-weight: 400;
-  font-size: 20px;
 }

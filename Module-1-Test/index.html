@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The RPS Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- APP -->
+    <div class="container">
+      <div class="banner">
+        <!-- TITLE -->
+        <div class="game-title">
+          ROCK <br />
+          PAPER <br />
+          SCISSORS <br />
+        </div>
+
+        <!-- SCORE -->
+        <div class="score">
+          <div class="computer">
+            <div class="computer-title">
+              COMPUTER <br />
+              SCORE
+            </div>
+            <div class="computer-score">0</div>
+          </div>
+          <div class="your">
+            <div class="your-title">
+              YOUR <br />
+              SCORE
+            </div>
+            <div class="your-score">0</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAIN GAME -->
+      <section class="game">
+        <!-- Rock Scissors -->
+        <div class="top-part">
+          <div class="rps-card" data-rps="rock">
+            <div class="rps rock">
+              <img src="./assets/rock.png" alt="Rock" />
+            </div>
+          </div>
+
+          <div class="line top-line"></div>
+
+          <div class="rps-card" data-rps="scissors">
+            <div class="rps scissors">
+              <img src="./assets/scissors.png" alt="Scissors" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Left/Right Lines -->
+        <div class="middle-part">
+          <div class="line left-line"></div>
+          <div class="line right-line"></div>
+        </div>
+
+        <!-- Paper -->
+        <div class="bottom-part">
+          <div class="rps-card" data-rps="paper">
+            <div class="rps paper">
+              <img src="./assets/paper.png" alt="Paper" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- RESULTS -->
+    <section class="result-container hidden">
+      <div class="results">
+        <div class="picked-item user">
+          <p>YOU PICKED</p>
+          <div class="picked-card" id="user">
+            <img
+              src="./assets/rock.png"
+              alt="Item Picked by User"
+              id="itemPickedByUser"
+            />
+          </div>
+          <div class="win-indicator" id="playerWinIndicator">
+            <div class="ripple inner" style="--ripple: 1"></div>
+            <div class="ripple middle" style="--ripple: 2"></div>
+            <div class="ripple outer" style="--ripple: 3"></div>
+          </div>
+        </div>
+        <!-- WINNER ANNOUNCEMENT -->
+        <div class="announcement">
+          <p class="win-lose-draw">
+            <span id="winner">YOU WIN</span>
+            <br />
+            AGAINST PC
+          </p>
+          <!-- BUTTON to PLAY AGAIN -->
+          <button class="play-again-btn">PLAY AGAIN</button>
+        </div>
+        <div class="picked-item pc">
+          <p>PC PICKED</p>
+          <div class="picked-card" id="pc">
+            <img
+              src="./assets/scissors.png"
+              alt="Item Picked by Computer"
+              id="itemPickedByPC"
+            />
+          </div>
+          <div class="win-indicator" id="pcWinIndicator">
+            <div class="ripple inner" style="--ripple: 1"></div>
+            <div class="ripple middle" style="--ripple: 2"></div>
+            <div class="ripple outer" style="--ripple: 3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HURRAY -->
+    <section class="hurray disabled-section">
+      <div class="winner-pic">
+        <img class="trophy" src="/assets/trophy.png" alt="Trophy" />
+        <img class="stars" src="/assets/stars.png" alt="Stars Behind Trophy" />
+      </div>
+      <div class="final-announcement">
+        <p>
+          <span>HURRAY!!</span>
+          <br />
+          YOU WON THE GAME
+        </p>
+        <!-- BUTTON to PLAY AGAIN -->
+        <button class="play-again-btn">PLAY AGAIN</button>
+      </div>
+    </section>
+
+    <!-- RULES -->
+    <div class="rules">
+      <div class="rules-box">
+        <header class="rules-title">
+          <h2 class="rules-text">Game Rules</h2>
+        </header>
+
+        <!-- Close Button -->
+        <div class="close-btn">
+          <img src="/assets/close.png" alt="Close Button" />
+        </div>
+
+        <!-- Rules  -->
+        <div class="rules-list">
+          <ul>
+            <li class="bullet">
+              Rock beats scissors, scissors beat paper, and paper beats rock.
+            </li>
+            <li class="bullet">
+              Agree ahead of time whether you’ll count off “rock, paper,
+              scissors, shoot” or just “rock, paper, scissors.”
+            </li>
+            <li class="bullet">
+              Use rock, paper, scissors to settle minor decisions or simply play
+              to pass the time
+            </li>
+            <li class="bullet">
+              If both players lay down the same hand, each player lays down
+              another hand
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="rules-next">
+      <!-- Rules Button -->
+      <button class="rules-btn">RULES</button>
+
+      <!-- Next Button -->
+      <button class="next-btn">NEXT</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -116,6 +116,7 @@ function displayResults(results) {
         pcWinIndicator.classList.add('disabled');
 
         // rules button position
+        console.log("Resetting rules button position");
         rulesBtn.style.right = "50px";
     }
 
@@ -135,6 +136,7 @@ function displayResults(results) {
 
         // rules button position
         rulesBtn.style.right = "220px";
+
     }
 
     else {
@@ -151,6 +153,7 @@ function displayResults(results) {
 
         // rules button position
         rulesBtn.style.right = "50px";
+
     }
 
     // console log before toggle
@@ -164,6 +167,8 @@ function displayResults(results) {
     // console.log('After toggle - gameSection:', gameSection.classList);
     // console.log('After toggle - resultsSection:', resultsSection.classList);
 }
+
+
 
 // FUNCTION FOR SCORE
 function keepScore(result) {
@@ -232,4 +237,4 @@ playAgainBtnHurray.addEventListener('click', () => {
     sectionsToToggle.classList.toggle("disabled-section");
 
     nextBtn.disabled = true;
-})
+});

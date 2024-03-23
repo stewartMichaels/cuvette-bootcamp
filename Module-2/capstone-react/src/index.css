@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* font-family: "Single Day", cursive; */
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+:root {
+  --primary-green-color: #72db73;
+  --secondary-green-color: #148a08;
+  --text-color: #7c7c7c;
+  --input-bg-color: #292929;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  background-color: black;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-green-color);
+}

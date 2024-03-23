@@ -1,0 +1,65 @@
+.movie-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.m-container-left {
+  gap: 60px;
+}
+
+.title {
+  font-family: "Single Day", cursive;
+  font-size: 70px;
+  color: var(--primary-green-color);
+  font-weight: 400;
+}
+
+.choose {
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.movie-chip {
+  height: 120px;
+  overflow-y: scroll;
+}
+
+.warning {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 20px;
+  color: red;
+}
+
+.m-container-left,
+.m-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 100px;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: var(--secondary-green-color);
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: var(--primary-green-color);
+}

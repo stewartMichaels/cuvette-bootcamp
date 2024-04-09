@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= first_name %> <%= last_name %> | Social Media App</title>
+
+    <style>
+      .container {
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 4px;
+        margin: 20px auto;
+        width: max-content;
+        text-align: center;
+      }
+
+      .premium-tag {
+        background-color: rgba(44, 160, 255, 0.8);
+        border-radius: 5px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><%= first_name %> <%= last_name %></h1>
+      <img src="<%=avatar%>" />
+      <p><%=email%></p>
+    </div>
+  </body>
+</html>

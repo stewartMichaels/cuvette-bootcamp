@@ -22,10 +22,10 @@
 
 ### REST APIs: Representational State Transfer
 
-> **CRUD Operations:**
+> **CRUD (Create, Read, Update, Delete) Operations:**
 >
-> - GET (Read)
 > - POST (Create)
+> - GET (Read)
 > - PUT/PATCH (Update)
 > - DELETE (Delete)
 
@@ -49,4 +49,6 @@
 
 ### Dependencies Used:
 
-> mongoose, express, body-parser, ejs
+> mongoose, express, body-parser, ejs, mongodb, dotenv
+>
+> > all of these are NPM packages
